@@ -1,9 +1,8 @@
+from os import environ
+environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 import pygame
 import sys
 from tetris import Tetris
-from os import environ
-
-environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 pygame.init()
 pygame.font.init()
